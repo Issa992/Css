@@ -90,3 +90,7 @@ a:hover, a:active{
 .img{
   width:100%;
 }
+
+h2:hover, a:active{
+    background-color: rgb(109, 181, 186);
+  }
