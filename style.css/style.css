@@ -1,7 +1,9 @@
 /* this css code just in case the stylesheet link didn't work */
 * {box-sizing: border-box;}
 
-.mySlides {display: none;}
+.DivSlide {
+  
+}
 
 
 .slideshow-container {
