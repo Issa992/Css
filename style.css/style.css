@@ -1,12 +1,35 @@
+/* this css code just in case the stylesheet link didn't work */
 * {box-sizing: border-box;}
-body {font-family: Verdana, sans-serif;}
+
 .mySlides {display: none;}
-img {vertical-align: middle;}
+
 
 .slideshow-container {
   max-width: 1000px;
   position: relative;
   margin: auto;
+  
+}
+
+.container{
+  font-size:20px;
+  padding-left:10px;
+  font-family:Arial,serif;
+  margin: auto;
+  width: 80%;
+  border: 2px inset black;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.Slide-images{
+  height:600px;
+  margin-left:120px;
+
+}
+
+.body-img{
+  width:100%;
 }
 .dot {
   height: 15px;
@@ -23,8 +46,6 @@ img {vertical-align: middle;}
 }
 
 .fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
   animation-name: fade;
   animation-duration: 1.5s;
 }
@@ -34,10 +55,6 @@ img {vertical-align: middle;}
   to {opacity: 1}
 }
 
-@keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
 
 @media only screen and (max-width: 300px) {
   .text {font-size: 11px}
@@ -45,48 +62,20 @@ img {vertical-align: middle;}
 
 
 
-
-
-#h2{
+#day-trip-title{
   color:rgb(252, 105, 0);
-
-}
-.container{
-  font-size:20px;
-  padding-left:10px;
-  font-family:Arial,serif;
-  
-  margin: auto;
-  width: 80%;
-  border: 2px inset black;
-  padding: 10px;
-    margin-left: auto;
-  margin-right: auto;
+  text-align:center;
 }
 
-#bodyId{
+#body-Id{
 background-color:rgb(235, 235, 235);
+  font-family: Verdana, sans-serif;
 }
-#firstP{
-  margin-left:400px;
-  margin-bottom:90px;
-  width: 80%;
-  padding-left:10px;
-  font-size:18px;
-}
-#ul{
+
+#Titles-ul{
   background-color:rgb(219, 235, 255);
 }
 a:hover, a:active{
   background-color: rgb(109, 181, 186);
 }
 
-.images{
-
-}
-.firstP{
-  overflow:auto;
-}
-.img{
-  width:100%;
-}
